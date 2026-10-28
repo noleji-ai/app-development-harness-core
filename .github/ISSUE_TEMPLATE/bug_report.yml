@@ -1,0 +1,34 @@
+name: Report a reproducible problem
+description: Describe a failure using shareable input and the exact version.
+body:
+  - type: markdown
+    attributes:
+      value: Remove credentials, personal paths, customer/student data and private addresses. Do not post sensitive security details here.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit and operating system
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and minimal shareable input
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: Expected result, actual result and sanitized evidence
+    validations:
+      required: true
+  - type: dropdown
+    id: execution
+    attributes:
+      label: Execution context
+      options:
+        - Local fixture, no model calls
+        - Real provider call, costs reviewed separately
+        - Not run or unknown
+    validations:
+      required: true

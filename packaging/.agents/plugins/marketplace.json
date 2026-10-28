@@ -1,0 +1,20 @@
+{
+  "name": "app-harness-local",
+  "interface": {
+    "displayName": "App Harness Local"
+  },
+  "plugins": [
+    {
+      "name": "app-development-harness",
+      "source": {
+        "source": "local",
+        "path": "./plugins/app-development-harness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

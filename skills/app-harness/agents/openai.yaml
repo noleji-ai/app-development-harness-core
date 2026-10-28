@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Harness"
+  short_description: "Decision-led app delivery with verifiable gates"
+  default_prompt: "Use $app-harness to initialize and run a verified app delivery workflow."

@@ -1,0 +1,23 @@
+{
+  "name": "app-development-harness",
+  "version": "1.2.0",
+  "description": "Decision-led app delivery harness with dynamic stack optimization and release evidence",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "App Development Harness",
+    "shortDescription": "Build apps through explicit product gates and verifiable delivery stages.",
+    "longDescription": "App Development Harness turns an app request into a resumable, evidence-backed delivery run. It records every decision, recommends technology from product constraints, and exposes blocking choices through a secure local dashboard.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "brandColor": "#C2EF4E",
+    "defaultPrompt": [
+      "Initialize App Harness for this project.",
+      "Resume the current App Harness run.",
+      "Open the App Harness decision dashboard."
+    ]
+  }
+}

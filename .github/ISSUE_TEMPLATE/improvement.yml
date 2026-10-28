@@ -1,0 +1,21 @@
+name: Propose an improvement
+description: Explain a user problem, the existing workaround and how to verify a change.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and existing workaround
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Smallest useful change and who would use it
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Reproduction, comparison and success check
+    validations:
+      required: true

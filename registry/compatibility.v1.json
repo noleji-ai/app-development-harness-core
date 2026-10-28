@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-07-13",
+  "entries": [
+    {
+      "id": "xcode",
+      "version": "26.6",
+      "strategy": "exact",
+      "source": "https://developer.apple.com/news/releases/?id=06252026a"
+    },
+    {
+      "id": "swift",
+      "version": "6.3.3",
+      "strategy": "sdk_bundled",
+      "source": "https://www.swift.org/install/macos/package_installer/"
+    },
+    {
+      "id": "macos-swiftui",
+      "version": "1.0.0",
+      "strategy": "xcode_sdk_bundled",
+      "source": "https://developer.apple.com/xcode/swiftui/"
+    },
+    {
+      "id": "ios-swiftui",
+      "version": "26.6",
+      "strategy": "xcode_sdk_bundled",
+      "source": "https://developer.apple.com/xcode/swiftui/"
+    },
+    {
+      "id": "agp",
+      "version": "9.2.1",
+      "strategy": "exact",
+      "source": "https://developer.android.com/build/releases/agp-9-2-0-release-notes"
+    },
+    {
+      "id": "compose-bom",
+      "version": "2026.06.01",
+      "strategy": "exact",
+      "source": "https://developer.android.com/develop/ui/compose/bom"
+    },
+    {
+      "id": "android-compose",
+      "version": "9.2.1",
+      "strategy": "agp_profile",
+      "source": "https://developer.android.com/build/releases/agp-9-2-0-release-notes"
+    },
+    {
+      "id": "flutter",
+      "version": "3.44.3",
+      "strategy": "exact",
+      "source": "https://docs.flutter.dev/install/archive"
+    },
+    {
+      "id": "react-native",
+      "version": "0.86.0",
+      "strategy": "exact",
+      "source": "https://reactnative.dev/versions.html"
+    },
+    {
+      "id": "typescript",
+      "version": "6.0.2",
+      "strategy": "compatibility_profile",
+      "source": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/"
+    },
+    {
+      "id": "next",
+      "version": "16.2.10",
+      "strategy": "exact",
+      "source": "https://nextjs.org/blog/next-16-2"
+    },
+    {
+      "id": "web-next",
+      "version": "16.2.10",
+      "strategy": "exact",
+      "source": "https://nextjs.org/blog/next-16-2"
+    },
+    {
+      "id": "astro",
+      "version": "7.0.7",
+      "strategy": "exact",
+      "source": "https://astro.build/blog/astro-7/"
+    },
+    {
+      "id": "web-astro",
+      "version": "7.0.7",
+      "strategy": "exact",
+      "source": "https://astro.build/blog/astro-7/"
+    },
+    { "id": "vite", "version": "8.1.4", "strategy": "exact", "source": "https://vite.dev/blog" },
+    {
+      "id": "web-vite-react-pwa",
+      "version": "8.1.4",
+      "strategy": "exact",
+      "source": "https://vite.dev/blog"
+    },
+    {
+      "id": "react",
+      "version": "19.2.7",
+      "strategy": "exact",
+      "source": "https://react.dev/versions"
+    },
+    {
+      "id": "go",
+      "version": "1.26.5",
+      "strategy": "exact",
+      "source": "https://go.dev/doc/devel/release"
+    },
+    {
+      "id": "backend-go-postgres",
+      "version": "1.26.5",
+      "strategy": "exact",
+      "source": "https://go.dev/doc/devel/release"
+    },
+    {
+      "id": "postgresql",
+      "version": "18.4",
+      "strategy": "self_managed",
+      "source": "https://www.postgresql.org/support/versioning/"
+    },
+    {
+      "id": "python",
+      "version": "3.14.6",
+      "strategy": "exact",
+      "source": "https://www.python.org/downloads/release/python-3146/"
+    },
+    {
+      "id": "fastapi",
+      "version": "0.139.0",
+      "strategy": "exact",
+      "source": "https://fastapi.tiangolo.com/release-notes/"
+    },
+    {
+      "id": "backend-fastapi-postgres",
+      "version": "0.139.0",
+      "strategy": "exact",
+      "source": "https://fastapi.tiangolo.com/release-notes/"
+    },
+    {
+      "id": "nestjs",
+      "version": "11.1.28",
+      "strategy": "exact",
+      "source": "https://github.com/nestjs/nest/releases"
+    },
+    {
+      "id": "backend-nestjs-postgres",
+      "version": "11.1.28",
+      "strategy": "exact",
+      "source": "https://github.com/nestjs/nest/releases"
+    },
+    {
+      "id": "sqlite",
+      "version": "3.53.3",
+      "strategy": "embedded_context",
+      "source": "https://www.sqlite.org/changes.html"
+    },
+    {
+      "id": "redis",
+      "version": "8.8.0",
+      "strategy": "measured_need",
+      "source": "https://github.com/redis/redis/releases/tag/8.8.0"
+    }
+  ]
+}
