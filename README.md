@@ -1,6 +1,6 @@
 # App Development Harness Core
 
-A local-first CLI and Codex plugin for resumable app-development work, explicit decisions and inspectable verification records. The aim is reusable infrastructure for small open-source teams. [한국어 안내](README.ko.md)
+A local-first CLI and Codex plugin for resumable app-development work, explicit decisions and inspectable verification records. The aim is reusable infrastructure for small open-source teams. [한국어 안내](README.ko.md) · [Project introduction](https://noleji-ai.github.io/app-development-harness-core/)
 
 This early source baseline derives from App Development Harness 1.2.0. It starts with a curated snapshot and no private Git history. External adoption, school deployments and OpenAI program selection have not been established. See [provenance](PROVENANCE.md) and [current verification](docs/verification.md).
 
